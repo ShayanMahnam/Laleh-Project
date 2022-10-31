@@ -1,0 +1,84 @@
+/* root */
+:root {
+    --gold-dark: #A38A00;
+    --gold: #FFD700;
+    --gold-light: #FFED8A;
+    --cream: #F4EBD0;
+    --charcoal: #122620;
+    --white: #fff;
+    --tan: #B68D40;
+    --gold-gold: #D6AD60;
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+/* header */
+header {
+   
+}
+
+/* topbar */
+.topbar {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--charcoal);
+    padding: .5rem 1rem;
+}
+.tbar-contact {
+    display: flex;
+    align-items: center;
+}
+.tbar-contact a {
+    color: var(--cream);
+    padding: 0 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.tbar-contact a:hover {
+    color: var(--gold-dark);
+}
+
+.tbar-contact p:nth-child(2) {
+    margin-right: 30px;
+}
+
+.tbar-contact p {
+    color: var(--cream);
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.tbar-list {
+    display: flex;
+    list-style: none;
+}
+
+.tbar-items {
+    margin: 0 15px;
+}
+
+.tbar-links {
+    text-decoration: none;
+    color: var(--cream);
+    transition: all .3s ease-in-out;
+}
+
+.tbar-links:hover {
+    color: var(--gold-dark);
+    
+}
