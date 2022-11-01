@@ -5,6 +5,7 @@
     --gold-light: #FFED8A;
     --cream: #F4EBD0;
     --charcoal: #122620;
+    --charcoal-light: #1f4036;
     --white: #fff;
     --tan: #B68D40;
     --gold-gold: #D6AD60;
@@ -20,6 +21,7 @@
 body {
     font-weight: 400;
     font-size: 18px;
+    
 
 }
 
@@ -130,6 +132,41 @@ nav {
     width: 100%;
 }
 
+
+/* footer */
+footer {
+    margin-top: 120px;
+    background-color: var(--charcoal);
+}
+
+.footer-container {
+    padding: 7rem;
+    display: flex;
+    justify-content: center;
+    gap: 0 30rem;
+    align-items: center;
+
+}
+
+.footer-container-content {
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    font-size: 12px;
+}
+
+.footer-container-content h3 {
+    border-bottom: 1px solid var(--white);
+    padding: 2rem 3rem;
+}
+
+.footer-bar {
+    color: var(--white);
+    background-color: var(--charcoal-light);
+    width: 100%;
+}
+
+/* screens */
 @media (max-width: 820px){
     .topbar {
         display: none;
