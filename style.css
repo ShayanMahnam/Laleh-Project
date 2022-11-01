@@ -116,6 +116,9 @@ nav {
     text-align: center;
     position: relative;
 }
+.nav-links:hover {
+    color: var(--gold-dark);
+}
 
 .nav-links::after {
     content: "";
@@ -124,13 +127,14 @@ nav {
     left: 0;
     width: 0;
     height: 1px;
-    background-color: var(--charcoal);
+    background-color: var(--gold-dark);
     transition: 0.15s ease-in-out;
 }
 
 .nav-links:hover:after {
     width: 100%;
 }
+
 
 
 /* footer */
@@ -140,10 +144,10 @@ footer {
 }
 
 .footer-container {
-    padding: 7rem;
+    padding: 7rem 3rem;
     display: flex;
     justify-content: center;
-    gap: 0 30rem;
+    gap: 0 20rem;
     align-items: center;
 
 }
@@ -156,8 +160,7 @@ footer {
 }
 
 .footer-container-content h3 {
-    border-bottom: 1px solid var(--white);
-    padding: 2rem 3rem;
+    text-align: center;
 }
 
 .footer-bar {
@@ -178,6 +181,11 @@ footer {
 
     .nav-links{
         display: none;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 3rem 0;
     }
 
 }
